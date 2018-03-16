@@ -1,0 +1,31 @@
+{
+	"adminPwd" : "NzQsNzIsNzYsNzQsNjcsNzUsNzIsNzMsNzIsNzgsNA==",
+		"aesKeyStr" : "45,82,e0,03,aa,67,41,cb,b9,d9,da,df,81,a9,0d,29",
+		"date" : 1516778332000,
+		"deletePwd" : "",
+		"electricQuantity" : 75,
+		"endDate" : 0,
+		"keyId" : 957682,
+		"keyRight" : 0,
+		"keyStatus" : 110401,
+		"lockAlias" : "Lhtest011",
+		"lockFlagPos" : 0,
+		"lockId" : 48459,
+		"lockKey" : "NDgsNTUsNTcsNTAsNTQsNTIsNTAsNDksNTUsNTQsMTI2",
+		"lockMac" : "E7:B6:6F:B4:4C:C2",
+		"lockName" : "S202T_c24cb4",
+		"lockVersion" : {
+			"groupId" : 1,
+			"logoUrl" : "",
+			"orgId" : 1,
+			"protocolType" : 5,
+			"protocolVersion" : 3,
+			"scene" : 2,
+			"showAdminKbpwdFlag" : 1
+		},
+		"noKeyPwd" : 3147107,
+		"remarks" : "",
+		"startDate" : 0,
+		"timezoneRawOffset" : 28800000,
+		"userType" : 110301
+}
