@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>简单双向绑定</title>
+	</head>
+	<body>
+		<input type="text" name="txt" id="txt" value="" />
+		<p id="show"></p>
+	</body>
+	<script type="text/javascript">
+		var obj = {};
+		Object.defineProperty(obj,"txt",{
+			get:function(){
+				return obj
+			},
+			set:function(newVal){
+				document.getElementById('txt').value = newVal;
+				document.getElementById('show').innerHTML = newVal;
+			}
+		})
+		document.addEventListener('keyup',function(e){
+			console.log(e)
+			obj.txt = e.target.value
+		})
+	</script>
+</html>
