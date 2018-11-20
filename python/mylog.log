@@ -1,0 +1,20 @@
+DEBUG:root:这是debug级别日志
+INFO:root:这是info级别日志
+WARNING:root:这是warning级别日志
+ERROR:root:这是error级别日志
+CRITICAL:root:这是critical级别日志
+DEBUG:root:这是debug级别日志
+INFO:root:这是info级别日志
+WARNING:root:这是warning级别日志
+ERROR:root:这是error级别日志
+CRITICAL:root:这是critical级别日志
+2018-11-19 17:23:11,424===DEBUG++++++这是debug级别日志
+2018-11-19 17:23:11,426===INFO++++++这是info级别日志
+2018-11-19 17:23:11,426===WARNING++++++这是warning级别日志
+2018-11-19 17:23:11,426===ERROR++++++这是error级别日志
+2018-11-19 17:23:11,426===CRITICAL++++++这是critical级别日志
+2018-11-19 17:23:11,426===DEBUG++++++这是debug级别日志
+2018-11-19 17:23:11,426===INFO++++++这是info级别日志
+2018-11-19 17:23:11,426===WARNING++++++这是warning级别日志
+2018-11-19 17:23:11,426===ERROR++++++这是error级别日志
+2018-11-19 17:23:11,426===CRITICAL++++++这是critical级别日志
