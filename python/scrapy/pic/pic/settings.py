@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for onescrapy project
+# Scrapy settings for pic project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'onescrapy'
+BOT_NAME = 'pic'
 
-SPIDER_MODULES = ['onescrapy.spiders']
-NEWSPIDER_MODULE = 'onescrapy.spiders'
+SPIDER_MODULES = ['pic.spiders']
+NEWSPIDER_MODULE = 'pic.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'onescrapy (+http://www.yourdomain.com)'
+#USER_AGENT = 'pic (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'onescrapy.middlewares.OnescrapySpiderMiddleware': 543,
+#    'pic.middlewares.PicSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'onescrapy.middlewares.OnescrapyDownloaderMiddleware': 543,
+#    'pic.middlewares.PicDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'onescrapy.pipelines.OnescrapyPipeline': 300,
+   'pic.pipelines.PicPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -3,16 +3,15 @@ import scrapy
 from onescrapy.items import OnescrapyItem
 
 class DomzSpider(scrapy.Spider):
-    name = 'domz'
-    allowed_domains = ['domz.org']
+    name = 'dome'
+    allowed_domains = ['meijutt.com']
     start_urls = [
-        "http://www.baidu.com",
+        "http://www.meijutt.com/new100.html",
     ]
 
     def parse(self, response):
-        for sel in response.xpath('//ul/li'):
+        movies = response.xpath('//ul[@class="top-list  fn-clear"]/li')
+        for each_movie in movies:
             item = OnescrapyItem()
-            item['title'] = sel.xpath('a/text()').extract()
-            item['link'] = sel.xpath('a/@href').extract()
-            item['desc'] = sel.xpath('text()').extract()
+            item['name'] = each_movie.xpath('./h5/a/@title').extract()[0]
             yield item

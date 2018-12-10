@@ -8,4 +8,7 @@
 
 class OnescrapyPipeline(object):
     def process_item(self, item, spider):
-        return item
+
+        with open('meiju1.txt', 'a') as f:
+            f.write(item['name'] + '\n')
+
